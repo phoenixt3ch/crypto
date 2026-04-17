@@ -1,0 +1,10 @@
+[
+  {
+    "variant_id": 8,
+    "generator_id": 4,
+    "generator_params": {"p": 65539, "M": 91},
+    "time_from_unix": 1700097417,
+    "time_to_unix": 1700099217,
+    "ciphertext_b64": "mk4f1jzh93qjmQ8/Iv9CURbF8ra9aITLkfOgH0EsxNn3y8lxkiMhiQGg2AqY3yB1OrJb5KELQgcY3X5HbVBouOHePnU3j/k/6Cwsm3q9tS8HarLkrSH6o68gUHQEt2h3k6/1Qxgjx5PNI2Sr"
+  }
+]

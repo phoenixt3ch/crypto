@@ -203,11 +203,11 @@ public class Program
 		dict.Add('з', 'ю');
 		dict.Add('ш', 'ц');
 				
-		// Для символов шифротекста, для которых не подставили замену, подставляем символ '_'
+		// Для символов шифротекста, для которых не подставили замену, оставляем их же
 		for (int i = 0; i < sort_letters.Count; i++)
 			if (!dict.ContainsKey(sort_letters[i]))
 				//dict.Add(sort_letters[i], rus_letters[i]);
-				dict.Add(sort_letters[i], '_');
+				dict.Add(sort_letters[i], sort_letters[i]);
 			
 		// 5. Для проверки нашего словаря, выводим удвоения - пары из двух одинаковых букв
 		// (в русском это обычно "ии", "нн", "оо", "сс")
